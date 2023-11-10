@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina Expendedora de Café</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Máquina Controlador de Stock y compra de Cafe</h1>
+    <div class="maquina">
+        <div id="nombresCafe" class="nombres-cafe"></div>
+        <input type="text" id="nombreCafe" placeholder="Nombre del Café">
+        <button id="buscar">Buscar Café</button>
+        <div id="infoCafe" class="info-cafe"></div>
+    </div>
+    <div class="form">
+        <h2>Agregar Café</h2>
+        <label for="nombreNuevoCafe">Nombre:</label>
+        <input type="text" id="nombreNuevoCafe">
+        <label for="precioNuevoCafe">Precio:</label>
+        <input type="text" id="precioNuevoCafe">
+        <label for="stockNuevoCafe">Stock:</label>
+        <input type="text" id="stockNuevoCafe">
+        <button id="agregar">Agregar Café</button>
+    </div>
+    <div id="mensaje" class="mensaje"></div>
+
+    <div class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="carritoLista" class="carrito-lista"></ul>
+        <p>Total: $<span id="totalCarrito">0.00</span></p>
+        <button id="finalizarCompra">Finalizar Compra</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

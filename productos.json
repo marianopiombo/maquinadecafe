@@ -1,0 +1,8 @@
+[
+    {"nombre": "la virginia", "precio": 800, "stock": 20},
+    {"nombre": "nescafe", "precio": 1500, "stock": 2},
+    {"nombre": "arlistan", "precio": 700, "stock": 25},
+    {"nombre": "cabrales", "precio": 1200, "stock": 5},
+    {"nombre": "nescafe gold", "precio": 2000, "stock": 1},
+    {"nombre": "starbucks", "precio": 2500, "stock": 20}
+]
